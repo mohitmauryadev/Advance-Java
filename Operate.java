@@ -36,6 +36,9 @@ public class Operate {
         }
        Driver driver = new Driver();
        CarFunctions car = new CarFunctions();
+       int incree = 1;
+       while(incree == 1){
+
        if(Otherage>18 || name.equals("Mohit Maurya")){
         System.out.println("Choose The Option");
         System.out.println("1. Know the details of the Driver");
@@ -119,7 +122,9 @@ public class Operate {
          }
          
         }
-    //}
+        System.out.print(" press 1 for continoue otherwise any number you can press : ");
+        incree = sc.nextInt();
+    }
    sc.close();
     }
 }

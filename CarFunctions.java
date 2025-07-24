@@ -6,7 +6,7 @@ public class CarFunctions implements Car{
     @Override
     public void start() {
         if(fuel<1){
-            System.out.println("Fuel is not enough to start the Car pleas fill the fuel first");
+            System.out.println("Fuel is not enough to start the Car please fill the fuel first");
         }
         else{
             System.out.println("Car is Starting Brooooommm......");
